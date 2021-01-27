@@ -1,0 +1,10 @@
+{
+    "name": "andreidediu/mxv-php-mvc-core",
+    "authors": [
+        {
+            "name": "Andrei Dediu",
+            "email": "andrei.dediu@max-vision.ro"
+        }
+    ],
+    "require": {}
+}
