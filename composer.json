@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "andreidediumxv\\phpmvc": "."
+            "andreidediumxv\\phpmvc\\": "."
         }
     }
 }
