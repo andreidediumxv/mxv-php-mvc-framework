@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace andreidediumxv\phpmvc;
 
-use app\core\exception\NotFoundException;
+use andreidediumxv\phpmvc\exception\NotFoundException;
 
 class Router
 {
@@ -41,7 +41,7 @@ class Router
             return Application::$app->view->renderView($callback);
         }
         if(is_array($callback)){
-            /** @var \app\core\Controller $controller */
+            /** @var \andreidediumxv\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
 

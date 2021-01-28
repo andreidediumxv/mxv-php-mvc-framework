@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core\form;
+namespace andreidediumxv\phpmvc\form;
 
 
-use app\core\Model;
+use andreidediumxv\phpmvc\Model;
 
 class Form
 {

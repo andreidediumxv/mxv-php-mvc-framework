@@ -1,17 +1,17 @@
 <?php
 
 
-namespace app\core;
+namespace andreidediumxv\phpmvc;
 
 
-use app\core\middlewares\BaseMiddleware;
+use andreidediumxv\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \andreidediumxv\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 

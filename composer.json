@@ -6,5 +6,10 @@
             "email": "andrei.dediu@max-vision.ro"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "andreidediumxv\\phpmvc": "."
+        }
+    }
 }

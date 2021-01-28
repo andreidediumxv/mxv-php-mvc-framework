@@ -1,11 +1,11 @@
 <?php
 
 
-namespace app\core\middlewares;
+namespace andreidediumxv\phpmvc\middlewares;
 
 
-use app\core\Application;
-use app\core\exception\ForbidenException;
+use andreidediumxv\phpmvc\Application;
+use andreidediumxv\phpmvc\exception\ForbidenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

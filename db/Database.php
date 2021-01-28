@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core\db;
+namespace andreidediumxv\phpmvc\db;
 
 
-use app\core\Application;
+use andreidediumxv\phpmvc\Application;
 
 class Database{
     public \PDO $pdo;

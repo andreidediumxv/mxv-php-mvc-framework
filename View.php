@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\core;
+namespace andreidediumxv\phpmvc;
 
 
 class View

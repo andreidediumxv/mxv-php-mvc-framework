@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace andreidediumxv\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use andreidediumxv\phpmvc\db\Database;
+use andreidediumxv\phpmvc\db\DbModel;
 
 class Application
 {
